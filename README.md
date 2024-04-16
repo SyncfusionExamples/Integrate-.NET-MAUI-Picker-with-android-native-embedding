@@ -34,7 +34,6 @@ protected override void OnCreate(Bundle? savedInstanceState)
  ```
  
 **Step 4:**
-
 Create a model class to manage the collection of data and provide customizable data source for the picker.
  
 **[C#]:**
@@ -66,7 +65,6 @@ public class PickerModel
  ```
  
 **Step 5:**
-
 Create a view model class that initializes an instance of **PickerModel**.
 
  **[C#]:**
@@ -82,7 +80,6 @@ public class PickerViewModel
  ```
 
 **Step 6:**
-
 Configure the SfPicker by customizing the header with [PickerHeaderView](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Picker.PickerHeaderView.html) and bind the data source to the column with the [PickerColumn](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Picker.PickerColumn.html). To enable the HeaderView, set the [Height](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Picker.PickerHeaderView.html#Syncfusion_Maui_Picker_PickerHeaderView_HeightProperty) to the [PickerHeaderView](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Picker.PickerHeaderView.html). Follow the below code snippet for better understanding.
  
 **[C#]:**
@@ -113,7 +110,6 @@ protected override void OnCreate(Bundle? savedInstanceState)
  ```
 
 **Step 7:**
-
 Convert the picker control to a platform-specific view for the MAUI framework and set this view as the content view for the current Android activity.
 
  **[C#]:**
